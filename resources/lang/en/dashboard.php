@@ -12,8 +12,19 @@ return [
     | these language lines according to your application's requirements.
     |
     */
+    'totalsales' => 'Total Sales',
+    'totalorder' => 'Total Order',
+    'productnumber' => 'No.Products',
+    'usernumber' => 'No.Users',
+    'latestorder' => 'Latest Order',
+    'orderid' => 'Order ID',
+    'customer' => 'Customer',
+    'price' => 'Price',
+    'orderstatus' => 'Status',
+    'latestview' => 'Latest Reviews',
+    'total' => 'Total',
+    'product' => 'Product',
+    'review' => 'Review',
 
-    'failed' => 'These credentials do not match our records.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];

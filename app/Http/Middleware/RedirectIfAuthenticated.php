@@ -20,7 +20,7 @@ class RedirectIfAuthenticated
     {
         if (Auth::guard($guard)->check()) {
             if($guard=='admin')
-                gireturn redirect(RouteServiceProvider::ADMIN);
+                return redirect(RouteServiceProvider::ADMIN);
             else
                 return redirect(RouteServiceProvider::HOME);
         }

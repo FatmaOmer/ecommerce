@@ -13,14 +13,13 @@ return [
     |
     */
 
-
-    'settings' => 'الإعدادات',
-    'shipping' => 'وسائل التوصيل',
-    'freecharge' => 'توصيل مجاني',
-    'localpickup' => 'توصيل داخلي',
-    'flatrate' => 'توصيل خارجي',
-    'main' => 'الرئيسية ',
-    'editshipping' => ' تعديل وسيلة التوصيل',
+    'settings' => 'Settings',
+    'shipping' => 'Shipping',
+    'freecharge' => 'Free Charge',
+    'localpickup' => 'Local Pick UP',
+    'flatrate' => 'Flat Rate',
+    'main' => 'Main',
+    'editshipping' => 'Edit Shipping',
 
 
 

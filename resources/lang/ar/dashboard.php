@@ -13,7 +13,21 @@ return [
     |
     */
 
-    'failed' => 'These credentials do not match our records.',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
+    'totalsales' => 'إجمالي المبيعات',
+    'totalorder' => 'إجمالي الطلبات',
+    'productnumber' => 'عدد المنتجات',
+    'usernumber' => 'عدد العملاء',
+    'latestorder' => 'أحدث الطلبات',
+    'orderid' => 'رقم الأوردر',
+    'customer' => 'العميل',
+    'price' => 'السعر',
+    'orderstatus' => 'حالة الطلب',
+    'total' => 'الأجمالي',
+    'latestview' => 'أحدث التقيمات',
+    'product' => 'المنتج',
+    'review' => 'التقييم',
+
+
+
 
 ];
