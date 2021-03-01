@@ -54,7 +54,7 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="projectinput1"> {{__('admin/shippings.name')}} </label>
-                                                            <input type="text" value=" {{$shippingmethod -> value}}" id="name"
+                                                            <input type="text" value=" {{$shippingmethod -> value}}" id="v"
                                                                    class="form-control"
                                                                    placeholder="  "
                                                                    name="value">
@@ -67,7 +67,7 @@
                                                     <div class="col-md-6">
                                                         <div class="form-group">
                                                             <label for="projectinput1"> {{__('admin/shippings.value')}} </label>
-                                                            <input type="number" value=" {{$shippingmethod -> plain_value}}" id="name"
+                                                            <input type="number" value="{{$shippingmethod -> plain_value}}" id="pv"
                                                                    class="form-control"
                                                                    placeholder="  "
                                                                    name="plain_value">

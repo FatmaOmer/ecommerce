@@ -14,19 +14,8 @@ return [
     */
 
 
-    'main' => 'Main',
-    'editshipping' => 'Edit Shipping',
-    'shipping' => ' Shipping',
-    'name' => ' Name of Charge',
-    'value' => 'Value of Charge',
-    'save' => 'Save',
-    'back' => 'Back',
-    'idre' => 'ID require',
-    'ides' => 'ID Not Exist',
-    'valuere' => 'Charge Type Required',
-    'pvaluenu' => 'Value of Charge Number',
-    'success' => ' Updated Successfully',
 
-
+    'success' => ' تم التحديث بنجاح',
+    'error' => 'هناك خطأ يرجي المحاولة',
 
 ];

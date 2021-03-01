@@ -31,9 +31,9 @@ class AdminLoginRequest extends FormRequest
     public function messages()
     {
         return [
-            'email.required'=> 'يجب إدخال البريد الإلكتروني',
-            'email.email'=>'صيغة البريد الإلكتروني غير صحيحة',
-            'password.required'=>'إدخل الرقم السري '
+            'email.required'=>"{{__('passwords.emailre')}}" ,
+            'email.email'=>"{{__('passwords.emailem')}}",
+            'password.required'=> "{{__('passwords.pass')}}"
         ];
     }
 }
