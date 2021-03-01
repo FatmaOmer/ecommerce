@@ -13,12 +13,14 @@ return [
     |
     */
 
-    'settings' => 'Settings',
-    'shipping' => 'Shipping',
-    'freecharge' => 'Free Charge',
-    'localpickup' => 'Local Pick UP',
-    'flatrate' => 'Flat Rate',
 
+    'main' => 'Main',
+    'editshipping' => 'Edit Shipping',
+    'shipping' => ' Shipping',
+    'name' => ' Name of Charge',
+    'value' => 'Value of Charge',
+    'save' => 'Save',
+    'back' => 'Back',
 
 
 

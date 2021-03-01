@@ -13,7 +13,7 @@ class SettingDatabaseSeeder extends Seeder
     public function run()
     {
      Setting::setMany([
-        'default_locale'=>'en',
+        'default_locale'=>'ar',
         'default_timezone'=>'Asia/kuwait',
         'reviews_enabled'=> true,
         'auto_approve_reviews'=> true,
@@ -25,10 +25,10 @@ class SettingDatabaseSeeder extends Seeder
         'outer_shipping_cost'=>0,
         'free_shipping_cost'=>0,
          'translatable'=>[
-             'store_name'=>'Fatma Store',
-             'local_shipping_label'=>'Local Charge',
-             'outer_shipping_label'=>'Outer Charge',
-             'free_shipping_label'=>'Free Charge',
+             'store_name'=>'متجر آي تي سي',
+             'local_shipping_label'=>'توصيل داخلي',
+             'outer_shipping_label'=>'توصيل خارجي',
+             'free_shipping_label'=>'توصيل مجاني',
          ],
 
 

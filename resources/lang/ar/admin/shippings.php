@@ -13,13 +13,15 @@ return [
     |
     */
 
-    'settings' => 'Settings',
-    'shipping' => 'Shipping',
-    'freecharge' => 'Free Charge',
-    'localpickup' => 'Local Pick UP',
-    'flatrate' => 'Flat Rate',
 
 
-
+    'main' => 'الرئيسية ',
+    'editshipping' => ' تعديل وسيلة التوصيل',
+    'shipping' => ' التوصيل',
+    'name' => 'اللإسم ',
+    'value' => 'قيمة التوصيل',
+    'status' => 'الحالة',
+    'save' => 'حفظ',
+    'back' => 'تراجع',
 
 ];

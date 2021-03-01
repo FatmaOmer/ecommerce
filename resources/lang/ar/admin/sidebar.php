@@ -19,8 +19,7 @@ return [
     'freecharge' => 'توصيل مجاني',
     'localpickup' => 'توصيل داخلي',
     'flatrate' => 'توصيل خارجي',
-    'main' => 'الرئيسية ',
-    'editshipping' => ' تعديل وسيلة التوصيل',
+
 
 
 

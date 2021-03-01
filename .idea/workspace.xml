@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7875c2-45c9-4c99-9d45-e9d6397a100d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/shippings.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/shippings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SettingDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin/sidebar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,7 +142,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en/admin" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -147,11 +154,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce\resources\lang\en" />
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\en\admin" />
       <recent name="C:\wamp64\www\ecommerce\resources\lang\ar\admin" />
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\ar" />
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\en" />
       <recent name="C:\wamp64\www\ecommerce\app\Helpers" />
-      <recent name="C:\wamp64\www\ecommerce\resources\views\dashboard\settings\shippings" />
-      <recent name="C:\wamp64\www\ecommerce\resources\lang" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ecommerce\app" />
@@ -195,7 +202,7 @@
       <workItem from="1614359579102" duration="23880000" />
       <workItem from="1614527407870" duration="1375000" />
       <workItem from="1614545511303" duration="5266000" />
-      <workItem from="1614579150912" duration="17493000" />
+      <workItem from="1614579150912" duration="25324000" />
     </task>
     <servers />
   </component>
