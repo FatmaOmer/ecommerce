@@ -22,9 +22,14 @@ Route::group(
 
 Route::Group(['namespace'=>'Dashboard','middleware'=>'auth:admin','prefix'=>'admin'],function (){
     Route::get('/','DashboardController@index')->name('admin.dashboard');
+    Route::get('logout','LoginController@logout')->name('admin.logout');
     Route::Group(['prefix'=>'settings'],function (){
         Route::get('shipping-methods/{type}','SettingsController@editShippingMethods')->name('edit.shippings.methods');
         Route::put('shipping-methods/{id}','SettingsController@updateShippingMethods')->name('update.shippings.methods');
+    });
+    Route::Group(['prefix'=>'profile'],function (){
+        Route::get('edit','ProfileController@editProfile')->name('edit.profile');
+        Route::put('update','ProfileController@updateProfile')->name('update.profile');
     });
 });
 Route::Group(['namespace'=>'Dashboard','middleware'=>'guest:admin','prefix'=>'admin'],function (){

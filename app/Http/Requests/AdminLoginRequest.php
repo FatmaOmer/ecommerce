@@ -31,9 +31,9 @@ class AdminLoginRequest extends FormRequest
     public function messages()
     {
         return [
-            'email.required'=>"{{__('passwords.emailre')}}" ,
-            'email.email'=>"{{__('passwords.emailem')}}",
-            'password.required'=> "{{__('passwords.pass')}}"
+            'email.required'=>trans('passwords.emailre') ,
+            'email.email'=>trans('passwords.emailem'),
+            'password.required'=> trans('passwords.pass')
         ];
     }
 }

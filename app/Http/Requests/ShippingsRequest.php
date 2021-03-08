@@ -32,10 +32,10 @@ class ShippingsRequest extends FormRequest
     public function messages()
     {
         return [
-            'id.required'=>"{{__('admin/shippings.idre')}}" ,
-            'id.exists'=>"{{__('admin/shippings.ides')}}",
-            'value.required'=> "{{__('admin/shippings.valuere')}}",
-            'plain_value.numeric'=> "{{__('admin/shippings.pvaluenu')}}",
+            'id.required'=>trans('admin/shippings.idre') ,
+            'id.exists'=>trans('admin/shippings.ides'),
+            'value.required'=> trans('admin/shippings.valuere'),
+            'plain_value.numeric'=> trans('admin/shippings.pvaluenu'),
         ];
     }
 }

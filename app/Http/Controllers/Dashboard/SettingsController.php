@@ -35,11 +35,11 @@ class SettingsController extends Controller
             $shipping_method->value = $request->value;
             $shipping_method->save();
             DB::commit();
-            return redirect()->back()-> with (["success"=> "{{__('messages.success')}}"]);
+            return redirect()->back()-> with (["success"=> trans('messages.success')]);
             }
             catch (\Exception $ex)
             {
-                return redirect()->back()-> with (["error"=> "{{__('messages.error')}}"]);
+                return redirect()->back()-> with (["error"=> trans('messages.error')]);
             DB::rollback();
             }
 

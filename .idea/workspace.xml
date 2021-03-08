@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7875c2-45c9-4c99-9d45-e9d6397a100d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/lang/ar/messages.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/lang/en/messages.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/admin/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/admin/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/dashboard/profile/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/LoginController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/LoginController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Dashboard/SettingsController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Middleware/Authenticate.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/AdminLoginRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/AdminLoginRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/ShippingsRequest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/ar/admin/shippings.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/admin/shippings.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/laravellocalization.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/laravellocalization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/AdminDatabaseSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/ar/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/admin/shippings.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/admin/shippings.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/lang/en/passwords.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/passwords.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/settings/shippings/edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/dashboard/includes/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +33,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="ecommerce" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,7 +156,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/ar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ITCCompany" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -156,16 +167,16 @@
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\ecommerce\resources\lang\ar" />
-      <recent name="C:\wamp64\www\ecommerce\resources\lang\en" />
-      <recent name="C:\wamp64\www\ecommerce\resources\lang\en\admin" />
-      <recent name="C:\wamp64\www\ecommerce\resources\lang\ar\admin" />
-      <recent name="C:\wamp64\www\ecommerce\app\Helpers" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp64\www\ecommerce\app" />
       <recent name="C:\wamp64\www\ecommerce\Models" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\en\admin" />
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\ar\admin" />
+      <recent name="C:\wamp64\www\ecommerce\resources\views\dashboard\profile" />
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\ar" />
+      <recent name="C:\wamp64\www\ecommerce\resources\lang\en" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -180,11 +191,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.phpunit.xml">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name="watch-poll" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="watch-poll" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.watch-poll" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -205,7 +231,11 @@
       <workItem from="1614359579102" duration="23880000" />
       <workItem from="1614527407870" duration="1375000" />
       <workItem from="1614545511303" duration="5266000" />
-      <workItem from="1614579150912" duration="33338000" />
+      <workItem from="1614579150912" duration="34173000" />
+      <workItem from="1614665702265" duration="26373000" />
+      <workItem from="1614811828452" duration="5753000" />
+      <workItem from="1614843240201" duration="7101000" />
+      <workItem from="1615178448301" duration="7762000" />
     </task>
     <servers />
   </component>

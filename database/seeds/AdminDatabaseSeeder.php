@@ -13,9 +13,9 @@ class AdminDatabaseSeeder extends Seeder
     public function run()
     {
         Admin::create([
-            'name'=>'laila',
-            'email'=>'laila@gmail.com',
-            'password'=> encrypt('123456'),
+            'name'=>'fatma',
+            'email'=>'fatmaalzhraaomer2017@gmail.com',
+            'password'=> bcrypt('12345678'),
 
 
 

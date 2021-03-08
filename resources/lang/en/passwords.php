@@ -21,5 +21,9 @@ return [
     'emailre' => "Enter Email Please",
     'emailem' => "Email Not Correct ",
     'pass' => "Enter Password Please ",
+    'namere' => "Enter name Please ",
+    'unique' => "Enter Another Email this exist ",
+    'confirmp' => "The Password Not Confirmed",
+    'minp' => "Minimum Number is 8",
 
 ];
