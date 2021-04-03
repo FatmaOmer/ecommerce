@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ProfileRequest extends FormRequest
+class TagRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,19 +25,17 @@ class ProfileRequest extends FormRequest
     {
         return [
             'name'=>'required',
-            'email'=> 'required|email|unique:admins,email'.$this->admin,
-           'password'=> 'confirmed|min:8',
+            'slug'=> 'required|unique:tags,slug'.$this->tag
+
         ];
     }
     public function messages()
     {
         return [
-            'name.required' => trans('passwords.namere'),
-            'email.required' => trans('passwords.emailre'),
-            'email.email' => trans('passwords.emailem'),
-            'email.unique' =>trans('passwords.unique'),
-           'password.confirmed' =>trans('passwords.confirmp'),
-          'password.min' =>trans('passwords.minp'),
+            'name.required' => trans('admin/tags.namere'),
+            'slug.required' => trans('admin/tags.slugre'),
+            'slug.unique' => trans('admin/tags.slugun'),
+
 
         ];
     }

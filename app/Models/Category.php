@@ -12,7 +12,7 @@ class Category extends Model
     protected  $with=['translations'];
     protected $translatedAttributes=['name'];
     protected $fillable=['parent_id','slug','is_active'];
-    protected $hidden=['translations'];
+   // protected $hidden=['translations'];
 
 
 //cast to another type of attribute
@@ -22,5 +22,26 @@ class Category extends Model
     ];
 
 
+
+
+    public function scopeParent($query)
+        {
+             return $query->whereNull('parent_id');
+        }
+    public function scopeChild($query)
+    {
+        return $query->whereNotNull('parent_id');
+    }
+
+        public function getactive()
+        {
+            return $this->is_active == 0? trans('admin/categories.notactive'):trans('admin/categories.active');
+        }
+        public function _parent()
+        {
+
+           return $this->belongsTo(self::class,'parent_id');
+
+        }
 
 }

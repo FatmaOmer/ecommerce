@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ProfileRequest extends FormRequest
+class CategoryRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -25,19 +25,18 @@ class ProfileRequest extends FormRequest
     {
         return [
             'name'=>'required',
-            'email'=> 'required|email|unique:admins,email'.$this->admin,
-           'password'=> 'confirmed|min:8',
+            'type'=>'required|in 1,2',
+            'slug'=> 'required|unique:categories,slug'.$this->category
+
         ];
     }
     public function messages()
     {
         return [
-            'name.required' => trans('passwords.namere'),
-            'email.required' => trans('passwords.emailre'),
-            'email.email' => trans('passwords.emailem'),
-            'email.unique' =>trans('passwords.unique'),
-           'password.confirmed' =>trans('passwords.confirmp'),
-          'password.min' =>trans('passwords.minp'),
+            'name.required' => trans('admin/categories.namere'),
+            'slug.required' => trans('admin/categories.slugre'),
+            'slug.unique' => trans('admin/categories.slugun'),
+
 
         ];
     }

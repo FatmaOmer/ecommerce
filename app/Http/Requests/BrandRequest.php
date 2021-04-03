@@ -4,7 +4,7 @@ namespace App\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class ProfileRequest extends FormRequest
+class BrandRequest extends FormRequest
 {
     /**
      * Determine if the user is authorized to make this request.
@@ -24,20 +24,20 @@ class ProfileRequest extends FormRequest
     public function rules()
     {
         return [
+
             'name'=>'required',
-            'email'=> 'required|email|unique:admins,email'.$this->admin,
-           'password'=> 'confirmed|min:8',
+            'photo'=> 'required_without:id|mimes:jpg,jpeg,png',
+
         ];
     }
     public function messages()
     {
         return [
-            'name.required' => trans('passwords.namere'),
-            'email.required' => trans('passwords.emailre'),
-            'email.email' => trans('passwords.emailem'),
-            'email.unique' =>trans('passwords.unique'),
-           'password.confirmed' =>trans('passwords.confirmp'),
-          'password.min' =>trans('passwords.minp'),
+
+            'name.required' => trans('admin/brands.namere'),
+            'photo.required' => trans('admin/brands.photore'),
+            'photo.mimes' => trans('admin/brands.photoex'),
+
 
         ];
     }
